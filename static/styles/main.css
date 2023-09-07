@@ -1,0 +1,55 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Import fonts */
+
+/* Gloock serif - Headings */
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
+/* Typography */
+h1 {
+	font-family: 'Gloock', serif;
+    color: #f4f4f4;
+    margin-bottom: 0.5em;
+}
+
+a, p {
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    color: #f4f4f4;
+    mix-blend-mode: hard-light;
+    line-height: 1.4;
+}
+
+/* Interactive */
+
+a {
+    color: #f4f4f4;
+    border: 2px solid #3080e200 ;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    transition: 0.2s ease-in;
+    
+}
+
+a:focus-visible {
+    outline: none;
+}
+
+a:is(:hover, :focus) {
+    color: #307FE2;
+    background-color: #bedbff;
+    border: 2px solid #307FE2;
+    border-radius: 0.5em;
+}
+
+@media (min-width: 64em) {
+    h1, p {
+        width: 40em;
+    }
+}

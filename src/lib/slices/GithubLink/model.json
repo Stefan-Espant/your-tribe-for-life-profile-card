@@ -1,0 +1,27 @@
+{
+  "id": "github_link",
+  "type": "SharedSlice",
+  "name": "GithubLink",
+  "description": "GithubLink",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "githublink": {
+          "type": "Link",
+          "config": {
+            "label": "GithubLink",
+            "placeholder": "",
+            "select": null
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

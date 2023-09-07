@@ -1,0 +1,20 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"headingone": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Veniam Lorem occaecat anim adipisicing deserunt dolor deserunt qui magna officia. In ipsum pariatur consequat nisi sunt minim cupidatat."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

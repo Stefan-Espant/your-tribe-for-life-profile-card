@@ -1,0 +1,102 @@
+{
+	"id": "visitekaart",
+	"label": "visitekaart",
+	"format": "page",
+	"repeatable": false,
+	"status": true,
+	"json": {
+		"Main": {
+			"uid": {
+				"type": "UID",
+				"config": {
+					"label": "uid",
+					"placeholder": ""
+				}
+			},
+			"headingone": {
+				"type": "StructuredText",
+				"config": {
+					"label": "HeadingOne",
+					"placeholder": "",
+					"allowTargetBlank": true,
+					"single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+				}
+			},
+			"mainimage": {
+				"type": "Image",
+				"config": {
+					"label": "MainImage",
+					"constraint": {
+						"width": 320,
+						"height": 320
+					},
+					"thumbnails": []
+				}
+			},
+			"paragraph": {
+				"type": "StructuredText",
+				"config": {
+					"label": "Paragraph",
+					"placeholder": "",
+					"allowTargetBlank": true,
+					"single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+				}
+			},
+			"githublink": {
+				"type": "Link",
+				"config": {
+					"label": "GithubLink",
+					"placeholder": "",
+					"select": null
+				}
+			},
+			"slices": {
+				"type": "Slices",
+				"fieldset": "Slice Zone",
+				"config": {
+					"choices": {
+						"heading_one": {
+							"type": "SharedSlice"
+						},
+						"main_image": {
+							"type": "SharedSlice"
+						},
+						"github_link": {
+							"type": "SharedSlice"
+						},
+						"paragraph": {
+							"type": "SharedSlice"
+						}
+					}
+				}
+			}
+		},
+		"SEO & Metadata": {
+			"meta_description": {
+				"config": {
+					"label": "Meta Description",
+					"placeholder": "A brief summary of the page"
+				},
+				"type": "Text"
+			},
+			"meta_image": {
+				"config": {
+					"constraint": {
+						"height": 1260,
+						"width": 2400
+					},
+					"label": "Meta Image",
+					"thumbnails": []
+				},
+				"type": "Image"
+			},
+			"meta_title": {
+				"config": {
+					"label": "Meta Title",
+					"placeholder": "A title of the page used for social media and search engines"
+				},
+				"type": "Text"
+			}
+		}
+	}
+}
