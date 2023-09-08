@@ -10,6 +10,9 @@
 }
 
 :root {
+    /* Animaties */
+    --a-default: 0.2s;
+
     /* kleuren */
     --color-primary-100: #307FE2;
     --color-primary-50: rgb(82, 167, 253);
@@ -66,7 +69,7 @@ a {
     gap: var(--u-medium);
     text-decoration: none;
     padding: var(--u-medium) 1em;
-    transition: 0.2s ease-in;
+    transition: var(--a-default) ease-in;
     
 }
 
