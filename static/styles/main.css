@@ -6,7 +6,30 @@
 
 ::selection {
     background-color: #203ea8;
-    color: #f4f4f4;
+    color: var(--color-default);
+}
+
+:root {
+    /* kleuren */
+    --color-primary-100: #307FE2;
+    --color-primary-50: rgb(82, 167, 253);
+    --color-primary-25: rgb(167, 206, 246);
+    --color-secundary-100: rgb(237, 59, 59);
+    --color-tetiary-100: rgb(217, 78, 189);
+    --color-default: #f4f4f4;        
+    --color-accent-25: #eee;
+    --color-accent-50: #ccc;
+    --color-accent-100: #888;
+    --color-invert: #111;
+
+    /* Eenheden */
+    --u-nano: 0.125em;
+    --u-micro: 0.25em;
+    --u-small: 0.4em;
+    --u-medium: 0.5em;
+    --u-default: 1em;
+    --u-large: 2em;
+    --u-round: 50%;
 }
 
 /* Import fonts */
@@ -17,8 +40,8 @@
 /* Typography */
 h1 {
 	font-family: 'Gloock', serif;
-    color: #f4f4f4;
-    margin-bottom: 0.5em;
+    color: var(--color-default);
+    margin-bottom: var(--u-medium);
 }
 
 a, p {
@@ -26,23 +49,23 @@ a, p {
 }
 
 p {
-    color: #f4f4f4;
+    color: var(--color-default);
     mix-blend-mode: hard-light;
     line-height: 1.4;
-    padding-left: 0.5em;
+    padding-left: var(--u-medium);
 }
 
 /* Interactive */
 
 a {
     width: fit-content;
-    color: #f4f4f4;
+    color: var(--color-default);
     border: 2px solid #3080e200 ;
     display: flex;
     align-items: center;
-    gap: 0.5em;
+    gap: var(--u-medium);
     text-decoration: none;
-    padding: 0.5em 1em;
+    padding: var(--u-medium) 1em;
     transition: 0.2s ease-in;
     
 }
@@ -52,10 +75,10 @@ a:focus-visible {
 }
 
 a:is(:hover, :focus) {
-    color: #307FE2;
+    color: var(--color-primary-100);
     background-color: #bedbff;
-    border: 2px solid #307FE2;
-    border-radius: 0.5em;
+    border: 2px solid var(--color-primary-100);
+    border-radius: var(--u-medium);
 }
 
 @media (min-width: 64em) {
