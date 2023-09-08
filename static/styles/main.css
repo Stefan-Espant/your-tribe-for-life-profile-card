@@ -4,6 +4,11 @@
 	padding: 0;
 }
 
+::selection {
+    background-color: #203ea8;
+    color: #f4f4f4;
+}
+
 /* Import fonts */
 
 /* Gloock serif - Headings */
@@ -24,13 +29,18 @@ p {
     color: #f4f4f4;
     mix-blend-mode: hard-light;
     line-height: 1.4;
+    padding-left: 0.5em;
 }
 
 /* Interactive */
 
 a {
+    width: fit-content;
     color: #f4f4f4;
     border: 2px solid #3080e200 ;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
     text-decoration: none;
     padding: 0.5em 1em;
     transition: 0.2s ease-in;
