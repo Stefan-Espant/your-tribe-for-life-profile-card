@@ -1,8 +1,6 @@
 # Visitekaartje Stefan van der Kort
 <img width="1440" alt="Schermafbeelding 2023-09-14 om 11 23 21" src="https://github.com/Stefan-Espant/your-tribe-for-life-profile-card/assets/89298385/23fa0f21-92c5-4274-bb63-f98e488aa6da">
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
-
 ## Creating a project
 
 If you're seeing this, you've probably already done this step. Congrats!
