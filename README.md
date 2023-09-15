@@ -1,7 +1,13 @@
 # Visitekaartje Stefan van der Kort
 <img width="1440" alt="Schermafbeelding 2023-09-14 om 11 23 21" src="https://github.com/Stefan-Espant/your-tribe-for-life-profile-card/assets/89298385/23fa0f21-92c5-4274-bb63-f98e488aa6da">
 
-## Creating a project
+## Index
+
+## Beschrijving
+
+## Kenmerken
+
+## Installatie
 
 If you're seeing this, you've probably already done this step. Congrats!
 
@@ -13,7 +19,7 @@ npm create svelte@latest
 npm create svelte@latest my-app
 ```
 
-## Developing
+### Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
@@ -24,7 +30,7 @@ npm run dev
 npm run dev -- --open
 ```
 
-## Building
+### Building
 
 To create a production version of your app:
 
@@ -35,3 +41,5 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
+## Bronnen
