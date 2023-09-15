@@ -3,9 +3,8 @@
 
 ## Index
   * [Beschrijving](#beschrijving)
-  * [Opdrachtgever](#opdrachtgever)
   * [Kenmerken](#kenmerken)
-  * [Gebruik](#gebruik)
+  * [Installatie](#installatie)
   * [Bronnen](#bronnen)
 
 ## Beschrijving
