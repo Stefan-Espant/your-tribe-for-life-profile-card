@@ -2,6 +2,11 @@
 <img width="1440" alt="Schermafbeelding 2023-09-14 om 11 23 21" src="https://github.com/Stefan-Espant/your-tribe-for-life-profile-card/assets/89298385/23fa0f21-92c5-4274-bb63-f98e488aa6da">
 
 ## Index
+  * [Beschrijving](#beschrijving)
+  * [Opdrachtgever](#opdrachtgever)
+  * [Kenmerken](#kenmerken)
+  * [Gebruik](#gebruik)
+  * [Bronnen](#bronnen)
 
 ## Beschrijving
 
