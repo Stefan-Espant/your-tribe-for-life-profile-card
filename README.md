@@ -55,6 +55,8 @@ You can preview the production build with `npm run preview`.
 
 ## Bronnen
 [prismic docs](https://prismic.io/docs/svelte)
+
 [sveltekit getting started @ mdn](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Svelte_getting_started)
+
 [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
