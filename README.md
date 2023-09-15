@@ -8,8 +8,15 @@
   * [Bronnen](#bronnen)
 
 ## Beschrijving
+Dit project is de start van het derde semester over workflows, frameworks & tooling. Daarvoor kregen we de opdracht om ons visitekaartje te herontwikkelen met behulp van het de compiler `SvelteKit` en het headless cms `prismic` waar mijn data vandaan komt.
 
 ## Kenmerken
+Voor dit project is gebruik gemaakt van
+
+* html
+* css
+* sveltekit
+* prismic
 
 ## Installatie
 
